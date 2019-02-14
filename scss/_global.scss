@@ -6,7 +6,8 @@ html {
 }
 
 body {
-  @include serif-font;
+  //@include serif-font;
+  @include sans-serif-font;
 }
 
 hr {

@@ -1,13 +1,14 @@
 // Bootstrap overrides for this template
+
 .text-primary {
   color: $primary !important;
 }
 
 .btn {
   font-weight: 700;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   border: none;
-  border-radius: 300px;
+  //border-radius: 300px;
   @include sans-serif-font;
 }
 
@@ -28,4 +29,12 @@
   &:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64,.5) !important;
   }
+}
+
+.navbar-brand {
+  font-size: 1.9em;
+}
+
+a.nav-link {
+  font-size: 1.2em !important;
 }
