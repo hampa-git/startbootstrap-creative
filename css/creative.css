@@ -21,7 +21,7 @@ hr {
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #000;
 }
 
 a {
@@ -52,7 +52,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -64,29 +64,29 @@ section {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #000;
   background: #212529;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
+  color: #000;
   background: #212529;
   text-shadow: none;
 }
 
 img::-moz-selection {
-  color: #fff;
+  color: #000;
   background: transparent;
 }
 
 img::selection {
-  color: #fff;
+  color: #000;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: #fff;
+  color: #000;
   background: transparent;
 }
 
@@ -139,21 +139,21 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #000;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -200,7 +200,7 @@ header.masthead p {
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 

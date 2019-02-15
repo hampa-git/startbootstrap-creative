@@ -17,7 +17,7 @@ hr {
 }
 
 hr.light {
-  border-color: $white;
+  border-color: $black;
 }
 
 a {
@@ -46,7 +46,7 @@ h6 {
 }
 
 .text-faded {
-  color: fade-out($white, .3);
+  color: fade-out($black, .3);
 }
 
 section {
@@ -58,23 +58,23 @@ section {
 }
 
 ::-moz-selection {
-  color: $white;
+  color: $black;
   background: $gray-900;
   text-shadow: none;
 }
 
 ::selection {
-  color: $white;
+  color: $black;
   background: $gray-900;
   text-shadow: none;
 }
 
 img::selection {
-  color: $white;
+  color: $black;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: $white;
+  color: $black;
   background: transparent;
 }
