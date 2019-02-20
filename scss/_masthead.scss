@@ -7,9 +7,9 @@ header.masthead {
   background-position: center center;
   @include background-cover;
   hr {
-    max-width: 100%;
+    max-width: 50%;
     margin-top: 30px;
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
   }
   h1 {
     font-size: 3rem;

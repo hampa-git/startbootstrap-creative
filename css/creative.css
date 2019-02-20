@@ -185,9 +185,8 @@ header.masthead {
 }
 
 header.masthead hr {
-  max-width: 100%;
+  max-width: 50%;
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 header.masthead h1 {
@@ -222,8 +221,43 @@ header.masthead p {
   }
 }
 
-.service-box {
+section.anmeldung .service-box {
   max-width: 400px;
+}
+
+section.anmeldung h1 {
+  font-size: 2em;
+}
+
+section.anmeldung p {
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  section.anmeldung h1 {
+    font-size: 3rem;
+  }
+  section.anmeldung p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  section.anmeldung h1 {
+    font-size: 4rem;
+  }
+  section.anmeldung p {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.anmeldung h1 {
+    font-size: 4.5em;
+  }
+  section.anmeldung p {
+    font-size: 2em;
+  }
 }
 
 .portfolio-box {
@@ -324,4 +358,39 @@ header.masthead p {
 
 a.nav-link {
   font-size: 1.2em !important;
+}
+
+section.program h1 {
+  font-size: 2em;
+}
+
+section.program p {
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  section.program h1 {
+    font-size: 3rem;
+  }
+  section.program p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  section.program h1 {
+    font-size: 4rem;
+  }
+  section.program p {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.program h1 {
+    font-size: 4.5em;
+  }
+  section.program p {
+    font-size: 2em;
+  }
 }
