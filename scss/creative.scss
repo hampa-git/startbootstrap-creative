@@ -1,9 +1,10 @@
+@import "bootstrap-overrides.scss";
 @import "variables.scss";
 @import "mixins.scss";
 @import "global.scss";
 @import "navbar.scss";
 @import "masthead.scss";
-@import "anmeldung";
-@import "ok.scss";
-@import "bootstrap-overrides.scss";
-@import "program";
+@import "program.scss";
+@import "anmeldung.scss";
+@import "orga.scss";
+@import "contact.scss";

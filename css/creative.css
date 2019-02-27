@@ -56,7 +56,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .section-heading {
@@ -251,7 +251,7 @@ section.anmeldung p {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1441px) {
   section.anmeldung h1 {
     font-size: 4.5em;
   }
@@ -391,6 +391,33 @@ section.program p {
     font-size: 4.5em;
   }
   section.program p {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  section.contact h1 {
+    font-size: 3rem;
+  }
+  section.contact p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  section.contact h1 {
+    font-size: 4rem;
+  }
+  section.contact p {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 1441px) {
+  section.contact h1 {
+    font-size: 4.5em;
+  }
+  section.contact p {
     font-size: 2em;
   }
 }
