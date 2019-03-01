@@ -23,6 +23,11 @@ section.anmeldung {
       font-size: 1.5em;
     }
 
+    .card {
+      display: inline;
+      font-size: 1em;
+    }
+
   }
 
   @media (min-width: 992px) {
@@ -34,14 +39,26 @@ section.anmeldung {
       font-size: 1.7em;
     }
 
+    .card {
+      display: inline;
+      font-size: 1.3em;
+    }
+
   }
 
   @media (min-width: 1441px) {
+
     h1 {
       font-size: 4.5em;
     }
+
     p {
       font-size: 2em;
+    }
+
+    .card {
+      display: inline;
+      font-size: 1.4em;
     }
 
   }
