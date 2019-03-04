@@ -1,6 +1,10 @@
 // Styling for the masthead
 header.masthead {
 
+  div.bg-danger {
+    background-color: #800080 !important;
+  }
+
   line-height: 1.15;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);

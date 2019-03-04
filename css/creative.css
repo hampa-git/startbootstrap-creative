@@ -221,6 +221,10 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead div.bg-danger {
+  background-color: #800080 !important;
+}
+
 header.masthead hr {
   max-width: 50%;
   margin-top: 30px;
